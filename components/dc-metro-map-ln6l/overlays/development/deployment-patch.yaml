@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-ln6l
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/release-e2e-bundle-tenant/appstudio/dc-metro-map-ln6l@sha256:13733568b1567dcf7809e10d94f2665913b8672b3271a82931d91a799f7e5ad9
+        name: my-nodejs
+        resources: {}
+status: {}
